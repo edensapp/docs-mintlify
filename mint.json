@@ -21,25 +21,14 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@edensapp.com"
+      "url": "https://edensapp.com/support"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
     "url": "https://app.edensapp.com"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://edens.mintlify.app/introduction"
-    },
     {
       "name": "Blog",
       "icon": "newspaper",
@@ -54,19 +43,6 @@
     {
       "group": "Essentials",
       "pages": ["essentials/workspaces", "essentials/team", "essentials/clients", "essentials/projects", "essentials/time-tracking", "essentials/invoicing"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
