@@ -53,7 +53,7 @@
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/workspaces", "essentials/team", "essentials/clients", "essentials/projects", "essentials/time-tracking"]
+      "pages": ["essentials/workspaces", "essentials/team", "essentials/clients", "essentials/projects", "essentials/time-tracking", "essentials/invoicing"]
     },
     {
       "group": "API Documentation",
