@@ -33,6 +33,16 @@
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://edensapp.com/blog"
+    },
+    {
+      "name": "Contact support",
+      "icon": "envelope-open-text",
+      "url": "https://edensapp.com/support"
+    },
+    {
+      "name": "Feature requests",
+      "icon": "map",
+      "url": "https://milk.notion.site/Edens-Roadmap-Feature-Requests-9c69b1c3c3284d128f69608c296439bd"
     }
   ],
   "navigation": [
