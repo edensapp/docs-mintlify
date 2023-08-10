@@ -3,7 +3,8 @@
   "name": "Edens",
   "logo": {
     "dark": "/logo/logo_circle.png",
-    "light": "/logo/logo_circle.png"
+    "light": "/logo/logo_circle.png",
+    "href": "https://edensapp.com"
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -20,13 +21,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "https://edensapp.com/support"
+      "name": "Sign In",
+      "url": "https://app.edensapp.com/sign-in"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://app.edensapp.com"
+    "name": "Create free account",
+    "url": "https://app.edensapp.com/sign-up"
   },
   "anchors": [
     {
