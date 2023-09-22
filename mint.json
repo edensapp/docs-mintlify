@@ -53,7 +53,20 @@
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/workspaces", "essentials/team", "essentials/clients", "essentials/projects", "essentials/time-tracking", "essentials/invoicing"]
+      "pages": ["essentials/workspaces", "essentials/team", "essentials/clients", "essentials/projects", "essentials/time-tracking"]
+    },
+    {
+      "group": "Billing",
+      "pages": [ 
+        "billing/invoicing",
+        {
+          "group": "Payment Methods",
+          "pages": [
+            "billing/payment-methods/overview",
+            "billing/payment-methods/paypal"
+          ]
+        }
+      ]
     }
   ],
   "footerSocials": {

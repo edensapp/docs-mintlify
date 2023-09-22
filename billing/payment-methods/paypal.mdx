@@ -1,0 +1,44 @@
+---
+title: 'PayPal'
+icon: 'paypal'
+---
+
+To offer PayPal as a payment option in Edens, you'll need to provide your PayPal account email and client ID. Here's how to set it up:
+
+<Steps>
+  <Step title="Create a PayPal Business Account">
+    Make sure you have an active PayPal business account.
+    If you don't have one, you can create a new PayPal account easily [here](https://www.paypal.com/business/open-business-account).
+  </Step>
+  <Step title="Access the PayPal Developer Dashboard">
+    Log into the [PayPal Developer Dashboard](https://developer.paypal.com/dashboard/).
+  </Step>
+  <Step title="Test with Sandbox Mode">
+    If you want to test PayPal payment ensure that the toggle between "Sandbox" and "Live" is set to "Sandbox" mode.
+    This allows you to test payments without processing real funds.
+  </Step>
+  <Step title="Navigate to Apps & Credentials">
+    Click on ["Apps & Credentials"](https://developer.paypal.com/dashboard/applications) in the menu bar.
+  </Step>
+  <Step title="Create a PayPal App">
+    Click the "Create App" button and fill out the form. Provide a name for your PayPal app to easily identify it in the future.
+  </Step>
+  <Step title="Generate Client ID">
+    Choose whether you'll be generating a Client ID and Secret Key for processing payments as a merchant or a platform.
+    For Edens, select the merchant account option. Once you've created the app, you'll see your PayPal client ID. Copy this client ID.
+    <Frame type="glass">
+      <img src="/images/paypal_account_clientId.png" />
+    </Frame>
+  </Step>
+  <Step title="Add PayPal Payment Method to Edens">
+    Go to the "Workspace" page in Edens and click on the "Payment Methods" tab.
+    Click "Add new payment method" button and select "PayPal" as the payment method.
+    Enter your PayPal account email and paste the client ID you copied earlier.
+    Click "Create" to add the PayPal payment method to your invoices.
+  </Step>
+  <Step title="Get Paid with PayPal">
+    You can now use PayPal as a payment method for the invoices you create.
+    The customer will be able to pay these invoices online.
+    Currently we do not synchronize with PayPal to automatically mark invoices as paid - this feature will be added later and we will let you know about it.
+  </Step>
+</Steps>
