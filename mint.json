@@ -59,6 +59,7 @@
       "group": "Billing",
       "pages": [ 
         "billing/invoicing",
+        "billing/hourly-rates",
         {
           "group": "Payment Methods",
           "pages": [
