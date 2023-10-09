@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Edens",
   "logo": {
-    "dark": "/logo/logo_circle.png",
-    "light": "/logo/logo_circle.png",
+    "dark": "/images/logo/logo_dark.svg",
+    "light": "/images/logo/logo_light.svg",
     "href": "https://edensapp.com"
   },
   "favicon": "/favicon.png",
