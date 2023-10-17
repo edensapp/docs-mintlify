@@ -58,8 +58,14 @@
     {
       "group": "Billing",
       "pages": [ 
-        "billing/invoicing",
         "billing/hourly-rates",
+        {
+          "group": "Invoicing",
+          "pages": [
+            "billing/invoicing/overview",
+            "billing/invoicing/taxes"
+          ]
+        },
         {
           "group": "Payment Methods",
           "pages": [
