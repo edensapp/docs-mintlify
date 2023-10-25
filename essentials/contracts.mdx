@@ -1,0 +1,105 @@
+---
+title: 'Contracts'
+description: 'Legal documents to secure your business'
+icon: 'file-signature'
+---
+
+<Info>This is a beta feature. We are working on improving it and look forward to your feedback.</Info>
+
+## What is a contract?
+
+In Edens, any legal document you may need is considered a contract. Examples of such documents include:
+
+- Independent Contractor Agreement
+- Non-Disclosure Agreement
+- Master Service Agreement
+- Statement of Work
+- Payment Agreement
+
+## Creating a contract
+
+<Steps>
+  <Step title="New contract">
+    Go to the "Contracts" page and click the "New contract" button.
+  </Step>
+  <Step title="Set contract details">
+    You can choose one of the available templates. Don't worry; you can always customize any text in the document. Set a contract name, which will be used in the interface only to easily identify a contract. Choose the client and projects to which the contract should be linked, and click the "Create" button.
+  </Step>
+  <Step title="Contract Editor">
+    In the contract editor, you'll see highlighted fields that need to be filled to generate a final document. Once all required details are provided, a progress bar at the top of the page will be full, and you'll see the "Finalize" button.
+  </Step>
+  <Step title="Sign a contract">
+    Once the contract is finalized, you can sign it. Please review everything carefully and sign. Then you can share the contract with your client.
+  </Step>
+  <Step title="Send to the client to sign">
+    After signing a contract, your client needs to sign it too. You can send an email or share a private link where the client will be able to review and sign the contract.
+  </Step>
+  <Step title="Contract is signed">
+    When the contract is signed by your client, it's considered signed. You and your client will receive an email containing a PDF document with both signatures.
+  </Step>
+  <Step title="Unsign a contract">
+    Before a contract is signed, you can un-sign it and revert it to draft status.
+  </Step>
+</Steps>
+
+## Contract templates
+
+### Default templates
+
+Select one of the predefined templates when creating a new contract.
+
+<CardGroup cols={2}>
+  <Card title="Independent Contractor Agreement" icon="file-contract">
+    Works for most freelance cases and supports various payment options.
+  </Card>
+  <Card title="Freelance Contractor Agreement" icon="file-contract">
+    A simpler version of the independent contractor agreement based on [The Plain Contract](https://github.com/jackmorgan/the-plain-contract).
+  </Card>
+</CardGroup>
+
+### Custom template
+
+Select any default template, create a contract, and then click the "Edit template" button. You'll be able to modify anything in the document.
+
+### Template editor
+
+A contract is a [Markdoc](https://markdoc.dev) document that you can edit using Markdown syntax:
+
+
+
+```
+# Headers
+
+**Bold**
+
+_Italic_
+
+[Links](/docs/nodes)
+
+![Images](/logo.svg)
+
+Lists
+- Item 1
+- Item 1
+- Item 1
+
+> Quotes
+
+`Inline code`
+
+{% table %}
+
+- Function {% width="25%" %}
+- Returns  {% colspan=2 %}
+- Example  {% align="right" %}
+
+{% /table %}
+```
+
+Edens supports special tags for working with document variables:
+
+- `{% field /%}` is used to define data that needs to be filled by the user.
+- `{% var /%}` is used to highlight a field in the document.
+- `{% $variable %}` is used to render a variable.
+
+While the contracts are still beta, additional documentation on them will be available at a later date. In the meantime, if you have any questions, please contact the support team.
