@@ -74,6 +74,17 @@
           ]
         }
       ]
+    },
+    {
+      "group": "API",
+      "pages": [ 
+        {
+          "group": "Webhooks",
+          "pages": [
+            "api/webhooks/zapier"
+          ]
+        }
+      ]
     }
   ],
   "footerSocials": {

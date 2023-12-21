@@ -1,0 +1,82 @@
+---
+title: 'Zapier'
+description: 'Connect your Edens workspace with the applications you use'
+icon: 'bolt'
+---
+
+## Overview
+
+Integrating Edens with Zapier lets you connect Edens to various apps, automating various tasks.
+It simplifies your workflow by handling repetitive tasks, giving you more time for other work.
+
+## Supported Events
+
+### Invoices
+<CardGroup cols={3}>
+  <Card title="Invoice Issued" icon="file-invoice-dollar" color="#FFD700">
+    Triggers when an invoice is issued.
+  </Card>
+  <Card title="Invoice Processing" icon="spinner" color="#FFD700">
+    Triggers when an invoice is processing.
+  </Card>
+  <Card title="Invoice Paid" icon="receipt" color="#FFD700">
+    Triggers when an invoice is paid.
+  </Card>
+</CardGroup>
+
+### Invitations
+<CardGroup cols={3}>
+  <Card title="New Invitation Created" icon="envelope-open-text" color="#87CEEB">
+    Triggers when an invitation is created.
+  </Card>
+  <Card title="Invitation Accepted" icon="check-double" color="#87CEEB">
+    Triggers when an invitation is accepted.
+  </Card>
+</CardGroup>
+
+### Time Off Requests
+<CardGroup cols={3}>
+  <Card title="Time Off Request Created" icon="calendar-plus" color="#32CD32">
+    Triggers when a time off request is created.
+  </Card>
+  <Card title="Time Off Request Updated" icon="calendar-check" color="#32CD32">
+    Triggers when a time off request is updated.
+  </Card>
+  <Card title="Time Off Request Deleted" icon="calendar-xmark" color="#32CD32">
+    Triggers when a time off request is deleted.
+  </Card>
+</CardGroup>
+
+### Contracts
+
+<CardGroup cols={3}>
+  <Card title="New Signed Contract" icon="file-signature" color="#FF6347">
+    Triggers when a contract is signed.
+  </Card>
+</CardGroup>
+
+## How to setup Zapier?
+
+<Steps>
+  <Step title="Log In or Sign Up on Zapier">
+    Access your [Zapier](https://zapier.com) account or create a new one.
+  </Step>
+  <Step title="Create a New Zap">
+    Initiate a new Zap setup within Zapier.
+  </Step>
+  <Step title="Set Up a Trigger">
+    Choose "Edens" as the trigger app in your Zap configuration.
+  </Step>
+  <Step title="Connect with Edens">
+    Enter your Application ID and Integration Key, found in the [Webhooks](https://app.edensapp.com/organizations/current/webhooks?tab=zapier) section of Edens Workspace Settings.
+  </Step>
+  <Step title="Select an Event for the Trigger">
+    Choose the specific event in Edens that will trigger your Zap.
+  </Step>
+  <Step title="Configure the Destination">
+    Select and configure the destination app where the data or action from Edens will be sent.
+  </Step>
+  <Step title="Test and Publish">
+    Test your Zap to ensure it works as expected, then publish it to automate your workflow.
+  </Step>
+</Steps>
