@@ -81,7 +81,7 @@
         {
           "group": "Webhooks",
           "pages": [
-            "api/webhooks/zapier"
+            "api-reference/webhooks/zapier"
           ]
         }
       ]
